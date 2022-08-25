@@ -51,7 +51,7 @@
 import { computed, inject, ref } from "vue";
 import { ElButton, ElTabPane, ElTabs } from "element-plus"
 import "./editor.scss";
-import EditorBlock from "./editor-blocks.js";
+import EditorBlock from "./material.js";
 import deepcopy from "deepcopy";
 import { useMenuDragger } from "../../hooks/useMenuDragger";
 import { useFocus } from "../../hooks/useFocus";

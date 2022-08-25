@@ -23,7 +23,7 @@ registerConfig.register({
 })
 registerConfig.register({
     label:"链接",
-    render:()=><a href="https://www.bytedance.com">默认链接</a>,
+    render:()=><a href="https://www.bytedance.com" target='_blank'>默认链接</a>,
     key:'a'
 })
 // registerConfig.register({

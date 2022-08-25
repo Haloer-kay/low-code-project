@@ -20,7 +20,7 @@ export function firstDraw(blockRef, data, offsetWidth, offsetHeight, id) {
       break;
     case "a":
       data.style[id].innerHTML = "默认链接";
-      data.style[id].href = "https://www.baidu.com";
+      data.style[id].href = "https://www.bytedance.com";
       break;
     case "input":
       data.style[id].innerHTML = "默认输入框";
