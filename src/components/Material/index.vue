@@ -148,7 +148,7 @@ export default {
               `<style></style>\n` +
               "</head>\n" +
               "<body>" +
-               "<h1>实在是不知道怎么做了！！<h1>"+
+               "<h1>真不知道怎么做了！！<h1>"+
               "\n</body>\n" +
               "</html>"
 
@@ -168,12 +168,12 @@ export default {
       },
       { label: "预览", handle: () => commands.preview() },
       {label:"导出",handle:()=>{alert(JSON.stringify(data.value))}},
-      {
-        label: "发布", handle: () => {
+      // {
+      //   label: "发布", handle: () => {
               
-            preview(out);
-        }
-      },
+      //       preview(out);
+      //   }
+      // },
     ]
 
     return {
